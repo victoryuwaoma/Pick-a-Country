@@ -1,7 +1,10 @@
 
 # Countries App
+
+## 🎓 Need to Know
 Candidate Test for Annexio Ltd. Countries App uses the Countries Rest API to show details of different countries in the world.
 
+## 🚀  Setup
 ### Links
 - **Main App**: [here](https://quirky-yonath-f3ad5e.netlify.app/)
 - **Countries Rest API**: [here](https://restcountries.com/#api-endpoints-v3-all)
