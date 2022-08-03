@@ -10,7 +10,7 @@ Candidate Test for Annexio Ltd. Countries App uses the Countries Rest API to sho
 - **Main App**: [here](https://quirky-yonath-f3ad5e.netlify.app/)
 - **Countries Rest API**: [here](https://restcountries.com/#api-endpoints-v3-all)
 
-### Technologies
+#### Technologies
 - **React**
 - **React Animations**
 - **Bootstrap**
