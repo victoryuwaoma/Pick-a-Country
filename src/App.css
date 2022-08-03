@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nunito+Sans:wght@200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img{
+    width: 100%;
+    height: 180px;
+    background-size: cover;
+ }
+
+
+body {
+  font-family: 'Lato', sans-serif;
+  padding: 20px;
+}
+
+.divLoader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.centered {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 50px;
+  font-family: 'Lato', sans-serif;
+  font-size: 50px;
+}
+
+.message {
+  display: inline-block;
+  line-height: 1.2;
+  transition: line-height .2s, width .2s;
+  overflow: hidden;
+}
+
+.message,
+.hidden {
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+}
+
+.hidden {
+  color: #FFF;
+}
+
+.card .details {
+  border-radius: 0 0 5px 5px;
+}
+
+.details h4 span {
+  font-weight: 300;
+}
+
+.sr-only {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
+}
+
+input {
+    max-width: 60%;
+}
+
+.toggle-control {
+  display: block;
+  position: relative;
+  padding-left: 100px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  user-select: none;
+}
+.toggle-control input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.toggle-control input:checked ~ .control {
+  background-color: dodgerblue;
+}
+.toggle-control input:checked ~ .control:after {
+  left: 55px;
+}
+.toggle-control .control {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100px;
+  border-radius: 25px;
+  background-color: darkgray;
+  transition: background-color 0.15s ease-in;
+}
+.toggle-control .control:after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+  background: white;
+  transition: left 0.15s ease-in;
+}
+
+@media only screen and (max-width: 600px) {
+.mx-sm-auto {
+  margin-right:auto!important;margin-left:auto!important
+}
+}
